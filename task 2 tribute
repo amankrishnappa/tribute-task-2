@@ -1,0 +1,106 @@
+//html code
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tribute Page</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<header>
+		<h1>Albert Einstein</h1>
+	</header>
+
+	<main>
+		<section>
+			<h2>Early Life</h2>
+			<p>Albert Einstein was born on March 14, 1879, in Ulm, Germany. His father, Hermann Einstein, was a salesman and engineer, and his mother, Pauline Koch, was a homemaker. Einstein had one sister, Maja.</p>
+			<img src="https://upload.wikimedia.org/wikipedia/commons/6/69/Young_Einstein.jpg">
+		</section>
+
+		<section>
+			<h2>Scientific Discoveries</h2>
+			<p>Albert Einstein is best known for his theory of relativity and his famous equation E=mc². He made many other important contributions to the field of physics, including his work on quantum mechanics, Brownian motion, and the photoelectric effect.</p>
+			<p>His theories revolutionized our understanding of the universe and paved the way for many new discoveries in science and technology.</p>
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/ehEFr1c-5mE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		</section>
+
+		<section>
+			<h2>Legacy</h2>
+			<p>Albert Einstein is widely regarded as one of the most brilliant scientists in history. His work continues to inspire and influence scientists and thinkers around the world. He was also a vocal advocate for peace and civil rights, and his humanitarian efforts continue to be an inspiration to many.</p>
+		</section>
+	</main>
+
+	<footer>
+		<p>Created by [Your Name]</p>
+	</footer>
+
+	<script src="script.js"></script>
+</body>
+</html>
+
+//css code
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, sans-serif;
+}
+
+header {
+	background: #333;
+	color: #fff;
+	text-align: center;
+	padding: 20px;
+}
+
+header h1 {
+	margin: 0;
+	font-size: 36px;
+}
+
+main {
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+section {
+	margin-bottom: 40px;
+}
+
+section h2 {
+	font-size: 24px;
+	margin-bottom: 10px;
+}
+
+section p {
+	font-size: 16px;
+	line-height: 1.5;
+}
+
+section img {
+	max-width: 100%;
+	margin-top: 20px;
+}
+
+footer {
+	background: #333;
+	color: #fff;
+	text-align: center;
+	padding: 20px;
+	font-size: 14px;
+}
+
+footer p {
+	margin: 0;
+}
+
+iframe {
+	display: block;
+	margin: 0 auto;
+	max-width: 100%;
+	height: 315px;
+	margin-top: 20px;
+}
+
